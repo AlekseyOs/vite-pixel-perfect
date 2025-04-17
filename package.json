@@ -2,10 +2,12 @@
 	"name": "vite-pixel-perfect",
 	"version": "1.0.0",
 	"main": "index.js",
+	"type": "module",
 	"scripts": {
 		"dev": "vite",
 		"build": "vite build",
 		"preview": "vite preview",
+		"fonts": "node convertFonts.js",
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
 	"keywords": [],
@@ -15,9 +17,13 @@
 	"devDependencies": {
 		"autoprefixer": "^10.4.21",
 		"cssnano": "^7.0.6",
+		"fs-extra": "^11.3.0",
+		"glob": "^11.0.1",
 		"postcss": "^8.5.3",
 		"sass": "^1.86.3",
 		"terser": "^5.39.0",
+		"ttf2woff": "^3.0.0",
+		"ttf2woff2": "^6.0.1",
 		"vite": "^6.3.0",
 		"vite-plugin-html": "^3.2.2"
 	},

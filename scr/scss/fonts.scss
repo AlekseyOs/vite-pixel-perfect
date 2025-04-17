@@ -1,72 +1,95 @@
-// Подключение шрифтов
+// Файл автоматически сгенерирован скриптом convertFonts.js
+
 @font-face {
-	font-family: 'Montserrat';
-	src: url('/assets/fonts/fonts_to_convert/Montserrat-Regular.ttf')
-		format('truetype');
-	font-weight: 400;
-	font-style: normal;
-	font-display: swap;
+  font-family: 'Montserrat';
+  src: url('/assets/fonts/Montserrat-Bold.woff2') format('woff2'),
+       url('/assets/fonts/Montserrat-Bold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-	font-family: 'Montserrat';
-	src: url('/assets/fonts/fonts_to_convert/Montserrat-Medium.ttf')
-		format('truetype');
-	font-weight: 500;
-	font-style: normal;
-	font-display: swap;
+  font-family: 'Montserrat';
+  src: url('/assets/fonts/Montserrat-Light.woff2') format('woff2'),
+       url('/assets/fonts/Montserrat-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-	font-family: 'Montserrat';
-	src: url('/assets/fonts/fonts_to_convert/Montserrat-SemiBold.ttf')
-		format('truetype');
-	font-weight: 600;
-	font-style: normal;
-	font-display: swap;
+  font-family: 'Montserrat';
+  src: url('/assets/fonts/Montserrat-Medium.woff2') format('woff2'),
+       url('/assets/fonts/Montserrat-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-	font-family: 'Montserrat';
-	src: url('/assets/fonts/fonts_to_convert/Montserrat-Bold.ttf')
-		format('truetype');
-	font-weight: 700;
-	font-style: normal;
-	font-display: swap;
+  font-family: 'Montserrat';
+  src: url('/assets/fonts/Montserrat-Regular.woff2') format('woff2'),
+       url('/assets/fonts/Montserrat-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-	font-family: 'Oswald';
-	src: url('/assets/fonts/fonts_to_convert/Oswald-Regular.ttf')
-		format('truetype');
-	font-weight: 400;
-	font-style: normal;
-	font-display: swap;
+  font-family: 'Montserrat';
+  src: url('/assets/fonts/Montserrat-SemiBold.woff2') format('woff2'),
+       url('/assets/fonts/Montserrat-SemiBold.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-	font-family: 'Oswald';
-	src: url('/assets/fonts/fonts_to_convert/Oswald-Medium.ttf')
-		format('truetype');
-	font-weight: 500;
-	font-style: normal;
-	font-display: swap;
+  font-family: 'Oswald';
+  src: url('/assets/fonts/Oswald-Bold.woff2') format('woff2'),
+       url('/assets/fonts/Oswald-Bold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-	font-family: 'Oswald';
-	src: url('/assets/fonts/fonts_to_convert/Oswald-SemiBold.ttf')
-		format('truetype');
-	font-weight: 600;
-	font-style: normal;
-	font-display: swap;
+  font-family: 'Oswald';
+  src: url('/assets/fonts/Oswald-Light.woff2') format('woff2'),
+       url('/assets/fonts/Oswald-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-	font-family: 'Oswald';
-	src: url('/assets/fonts/fonts_to_convert/Oswald-Bold.ttf')
-		format('truetype');
-	font-weight: 700;
-	font-style: normal;
-	font-display: swap;
+  font-family: 'Oswald';
+  src: url('/assets/fonts/Oswald-Medium.woff2') format('woff2'),
+       url('/assets/fonts/Oswald-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
 }
+
+@font-face {
+  font-family: 'Oswald';
+  src: url('/assets/fonts/Oswald-Regular.woff2') format('woff2'),
+       url('/assets/fonts/Oswald-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Oswald';
+  src: url('/assets/fonts/Oswald-SemiBold.woff2') format('woff2'),
+       url('/assets/fonts/Oswald-SemiBold.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+// Переменные для использования шрифтов
+$font-montserrat: 'Montserrat', sans-serif;
+$font-oswald: 'Oswald', sans-serif;
